@@ -156,7 +156,7 @@ nowuiKit = {
         var $navbar = $('.navbar').find('.navbar-translate').siblings('.navbar-collapse');
         var background_image = $navbar.data('nav-image');
 
-        if ($(window).width() < 991 || $('body').hasClass('burger-menu')) {
+        if ($(window).width() < 0 || $('body').hasClass('burger-menu')) {
             if (background_image != undefined) {
                 $navbar.css('background', "url('" + background_image + "')")
                     .removeAttr('data-nav-image')
