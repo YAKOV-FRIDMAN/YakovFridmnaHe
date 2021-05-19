@@ -68,7 +68,7 @@ $(document).ready(function() {
         });
     });
 
-    if ($(window).width() >= 992) {
+    if ($(window).width() >= 0) {
         big_image = $('.page-header-image[data-parallax="true"]');
 
         $(window).on('scroll', nowuiKitDemo.checkScrollForParallax);
