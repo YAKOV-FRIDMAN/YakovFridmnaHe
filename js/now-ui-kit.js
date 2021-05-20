@@ -235,3 +235,12 @@ function debounce(func, wait, immediate) {
         if (immediate && !timeout) func.apply(context, args);
     };
 };
+
+function myFunction1(){
+    var timeout = setTimeout(()=>{
+
+       // alert("test");
+       document.getElementById("imageProfile").style.display = "none";
+    },2500);
+
+}
