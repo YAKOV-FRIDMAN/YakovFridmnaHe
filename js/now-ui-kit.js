@@ -237,6 +237,7 @@ function debounce(func, wait, immediate) {
 };
 
 function myFunction1(){
+    document.getElementById("imageProfile").style.display = "block";
     var timeout = setTimeout(()=>{
 
        // alert("test");
